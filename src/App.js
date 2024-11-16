@@ -1,14 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import LandingPage from './pages/Landingpage/LandingPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-green-800">
-      Hello world!
-    </h1>
+    <div className="max-w-6xl mx-auto my-0">
+      <Navbar />
+      <LandingPage />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
