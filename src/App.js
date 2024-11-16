@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/Landingpage/LandingPage';
 import { Route, Routes } from 'react-router-dom';
-import Roadmap from './pages/Landingpage/Roadmap/Roadmap';
+import Roadmap from './pages/Roadmap/Roadmap';
+import Tools from './pages/Tools/Tools';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/roadmap' element={<Roadmap />} />
+        <Route path='/tools' element={<Tools />} />
       </Routes>
     </div>
   );

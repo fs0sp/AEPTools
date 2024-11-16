@@ -5,19 +5,19 @@ function Roadmap() {
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
-                    <h1 className="font-montserrat text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900">
+                    <h1 className="font-montserrat text-4xl md:text-5xl lg:text-6xl font-semibold text-gray-900">
                         Product Roadmap
                     </h1>
                     <p className="font-roboto text-xl md:text-2xl text-gray-600 mt-4">
-                        Check out what's in progress, what's coming next, and the features available now!
+                        A glance at what's available, in progress, and coming soon.
                     </p>
                 </div>
 
-                <div className="mt-16">
+                <div className="mt-16 space-y-10">
                     {/* Current Features Section */}
-                    <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-lg p-8 mb-12">
-                        <h2 className="font-montserrat text-3xl font-semibold text-gray-900">Current Features</h2>
-                        <ul className="mt-6 space-y-4">
+                    <div className="border-l-4 pl-4 border-gray-400">
+                        <h2 className="font-montserrat text-2xl font-semibold text-gray-900 mb-4">Current Features</h2>
+                        <ul className="space-y-3">
                             <li className="text-lg text-gray-800">
                                 <span className="font-semibold">Feature 1:</span> Seamless integration with AEP data sources
                             </li>
@@ -31,11 +31,11 @@ function Roadmap() {
                     </div>
 
                     {/* In Progress Section */}
-                    <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg p-8 mb-12">
-                        <h2 className="font-montserrat text-3xl font-semibold text-gray-900">In Progress</h2>
-                        <ul className="mt-6 space-y-4">
+                    <div className="border-l-4 pl-4 border-yellow-500">
+                        <h2 className="font-montserrat text-2xl font-semibold text-gray-900 mb-4">In Progress</h2>
+                        <ul className="space-y-3">
                             <li className="text-lg text-gray-800">
-                                <span className="font-semibold">Feature 1:</span> Improving data syncing with Adobe Experience Platform
+                                <span className="font-semibold">Feature 1:</span> Improving data syncing with AEP
                             </li>
                             <li className="text-lg text-gray-800">
                                 <span className="font-semibold">Feature 2:</span> Customizable user dashboards
@@ -47,16 +47,16 @@ function Roadmap() {
                     </div>
 
                     {/* Upcoming Features Section */}
-                    <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8">
-                        <h2 className="font-montserrat text-3xl font-semibold text-white">Upcoming Features</h2>
-                        <ul className="mt-6 space-y-4">
-                            <li className="text-lg text-white">
+                    <div className="border-l-4 pl-4 border-blue-600">
+                        <h2 className="font-montserrat text-2xl font-semibold text-gray-900 mb-4">Upcoming Features</h2>
+                        <ul className="space-y-3">
+                            <li className="text-lg text-gray-800">
                                 <span className="font-semibold">Feature 1:</span> Enhanced analytics and reporting
                             </li>
-                            <li className="text-lg text-white">
+                            <li className="text-lg text-gray-800">
                                 <span className="font-semibold">Feature 2:</span> Real-time data processing improvements
                             </li>
-                            <li className="text-lg text-white">
+                            <li className="text-lg text-gray-800">
                                 <span className="font-semibold">Feature 3:</span> Automated data pipeline management
                             </li>
                         </ul>
