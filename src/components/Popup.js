@@ -28,7 +28,7 @@ function Popup({ onClose }) {
                 >
                     &times;
                 </button>
-                <h1 className="text-2xl font-semibold text-blue-600 mb-6">Available Tools</h1>
+                <h1 className="text-2xl font-semibold text-blue-600 mb-6">Available Tools.</h1>
 
                 {/* Tools List */}
                 <div className="flex flex-wrap justify-between gap-4">
